@@ -19,15 +19,14 @@ public class App {
     {
         Logger log = LoggerFactory.getLogger(App.class);
 
-        try
-        {
-            log.info("Hello, World!");
+        try {
+            log.info("I am a Java app");
+            log.info("Just logging stuff");
 
-            throw new NullPointerException("Oh no!");
+            throw new NullPointerException("Ooh noes! Something bad happened");
         }
-        catch (Exception e)
-        {
-            log.error("Could not continue.", e);
+        catch (Exception e) {
+            log.error("Error occurred!", e);
         }
     }
 }
