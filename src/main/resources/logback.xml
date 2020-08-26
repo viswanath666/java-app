@@ -9,7 +9,7 @@
                     <fieldName>app</fieldName>
                 </contextName>
                 <timestamp>
-                    <fieldName>ts</fieldName>
+                    <fieldName>time</fieldName>
                     <timeZone>UTC</timeZone>
                 </timestamp>
                 <loggerName>
