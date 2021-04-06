@@ -22,6 +22,8 @@ public class App {
         try {
             log.info("I am a Java app");
             log.info("Just logging stuff");
+            
+            log.info("made some changes");
 
             throw new NullPointerException("Ooh noes! Something bad happened");
         }
